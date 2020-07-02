@@ -6,10 +6,7 @@ function hook() {
 
   return (
     <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
+      <p>value of count is: {count}</p>
     </div>
   );
 }
