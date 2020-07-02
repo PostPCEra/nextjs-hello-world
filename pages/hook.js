@@ -1,14 +1,19 @@
 import React, { useState } from 'react';
-
-function hook() {
-  // Declare a new state variable, which we'll call "count"
-  const [count, setCount] = useState(0);
-
+ 
+const hookexample = () => {
+  return <Headline />;
+};
+ 
+const Headline = () => {
+  const [greeting, setGreeting] = useState(
+    'Hello Function Component!'
+  );
+  
   return (
     <div>
-      <p>value of count is: {count}</p>
+      <h1>{greeting}</h1>
     </div>
   );
-}
-
-export default hook
+};
+ 
+export default hookexample;
