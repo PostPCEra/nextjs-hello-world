@@ -10,7 +10,11 @@
   "dependencies": {
     "next": "latest",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "match-sorter": "^4.0.0",
+    "namor": "^1.1.2",
+    "react-table": "latest",
+    "styled-components": "^4.3.2"
   },
   "license": "ISC"
 }
