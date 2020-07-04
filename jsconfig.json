@@ -1,0 +1,11 @@
+// tsconfig.json or jsconfig.json
+// as stated in : https://nextjs.org/docs/advanced-features/module-path-aliases
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/components/*": ["components/*"]
+      }
+    }
+  }
+
